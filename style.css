@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "roboto";
+    src: url(assets/Roboto_Condensed/static/RobotoCondensed-Regular.ttf);
+}
+.product1{
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.image{
+    height: 280px;
+    width: 300px;
+    background-color: aliceblue;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.image img{
+    margin-left:20px;
+    width: fit-content;
+    
+    height: 280px;
+    width: 250px;
+}
+.tittle{
+    margin-left: 15px;
+    font-family:'roboto';
+    font-size: 15px;
+}
+.discription{
+    margin-left: 15px;
+    font-family:'roboto';
+    font-size: 20px;
+    text-wrap:balance;
+}
+.checked {
+    color: orange;
+    
+  }
+.stars{
+    margin-left: 15px;
+}
+.rating{
+    margin-left: 15px;
+    font-family: 'roboto';
+    color: rgb(151, 153, 153);
+}
+.btn button{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 30px;
+    font-family:'roboto';
+    border-radius: 15px;
+    border-style: none;
+   background-color: yellow;
+    
+}
+.button :hover{
+    background-color: green;
+}
+.price{
+    margin-left: 15px;
+    font-family: 'roboto';
+    font-size: 20px;    
+}
+.discount{
+    font-family: 'roboto';
+    color: #939597;
+
+}
+.listprice{
+    font-family: 'roboto';
+    color: rgb#939597;
+    text-decoration: line-through;
+}
+.p{
+    margin-top: 5px;
+}
+.shipping{
+    margin-left: 15px;
+    font-family: 'roboto';
+    color: #939597;
+}
